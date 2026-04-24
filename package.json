@@ -7,6 +7,7 @@
     "next:build": "next build",
     "next:lint": "eslint",
     "tauri": "tauri",
+    "rust:clean": "cargo clean --manifest-path tauri/Cargo.toml",
     "dev": "tauri dev",
     "build": "tauri build"
   },
